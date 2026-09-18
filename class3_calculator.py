@@ -15,18 +15,6 @@ def main():
     parser.add_argument("--b", "-b", type=float, required=True, help="Second number")
     parser.add_argument(
         "--operation", "-op",
-        choices=["add"],
-        default="add",
-        help="Operation to perform"
-    )
-    parser.add_argument(
-        "--operation", "-op",
-        choices=["add", "subtract"],
-        default="add",
-        help="Operation to perform"
-    )
-    parser.add_argument(
-        "--operation", "-op",
         choices=["add", "subtract", "multiply"],
         default="add",
         help="Operation to perform"
